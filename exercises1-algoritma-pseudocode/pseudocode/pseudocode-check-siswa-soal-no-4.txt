@@ -1,0 +1,12 @@
+PROGRAM CheckSiswa
+DEKLARASI
+int s
+ALGORITMA
+read (s =0)
+WHILE ( s < 40 )
+IF ( Check == true ) THEN
+write("Hukuman")
+ELSE
+write("Pujian")
+ENDIF
+END WHILE

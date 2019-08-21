@@ -1,0 +1,7 @@
+PROGRAM ResultanNewton
+DEKLARASI
+int m, a, ef
+ALGORITMA
+read(m, a)
+ef = m * a
+write(ef)

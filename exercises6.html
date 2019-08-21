@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 6</title>
+	<script type="text/javascript">
+		//start tugas 1
+		var kata = "I love coding";
+		var nilai = 1;
+		var nilai2 = 20;
+		
+		//looping pertama
+		while(nilai <= 20 )  //kondisi nilai kurang dari atau sama dengan 20 
+		{
+		  if(nilai % 2 == 0){ //jika hasil mod nilai == 0 maka tampilkan nilai
+		    document.write(nilai + " - " + kata + "<br>");
+		  };
+		  nilai++; //
+		};
+		//end looping pertama
+
+		
+		//looping kedua
+		while(nilai > 0 ){
+			if (nilai % 2 == 0) {
+				document.write(nilai + " - I will become fullstack developer <br>" );
+			};
+			nilai--;
+		}
+		//end looping kedua
+		//end code tugas 1
+
+
+
+		//start tugas 2
+		
+		//looping pertama
+		var kata = "I love coding";
+		for (var i = 1 ; i <= 20 ; i++) {
+			document.write(i + " - " + kata + "<br>");
+		};
+		//end looping pertama
+
+		
+		//looping kedua
+		for (var i = 20; i >= 1; i--) {
+			document.write(i + " - " + "I will become fullstack developer <br>");
+		};
+		//end looping kedua
+		//end code tugas 2
+		
+
+		//start code tugas 3
+		
+		//Kelipatan 3
+		for ( var angka = 1; angka <= 100; angka ++){
+			if (angka % 2 == 0) {
+				document.write("Angka " + angka + " adalah bilangan Genap. <br><br>")
+			}else{
+				document.write("Angka " + angka + " adalah bilangan Ganjil. <br><br>")
+			}
+		}
+
+		document.write("<br><br><b>Bagian 2</b><br><br>")
+
+		for (var angka2 = 1;  angka2 <= 100; angka2 += 2){
+			if (angka2 % 3 == 0 ) {
+				
+				document.write(angka2 + " Kelipatan 3 <br>")
+			
+			}
+    }
+		//end kelipatan 3
+		
+
+		//start kelipatan 6
+		for ( var angka3 = 1; angka3 <= 100; angka3 += 5){
+			if (angka3 % 6 == 0) {
+				document.write(angka3 + " Kelipatan 6 <br>")
+			}
+		}
+		//end kelipatan 6
+		//
+		
+		//start kelipatan 10
+		for (var angka4 = 1; angka4 <= 100; angka4 += 9){
+			if (angka4 % 10 ==0) {
+				document.write(angka4 + " Kelipatan 10 <br>")
+			}
+		}
+		//end kelipatan 10
+		//end tugas 3
+	</script>
+</head>
+<body>
+
+</body>
+</html>

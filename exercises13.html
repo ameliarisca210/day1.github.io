@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 13</title>
+	<script type="text/javascript">
+		function xo(str){
+			let x = 0 
+			let o = 0
+			for (var i = 0; i < str.length; i++){ // melakukan check setiap huruf menggunakan loop dan length (jumlah string)
+				if (str[i] === 'x') { //jika str[i] -> string ke- i === 'x'
+					x++	//hitung jumlah x 
+				}else{
+					o++ //hitung jumlah selain huruf x
+				}
+			}
+
+			//document.write(x)
+
+			if (x === o) { //jika jumlah x sama dengan jumlah o 
+				return 'true <br>' //maka bernilai benar
+			}else{
+				return 'false <br>' //jika tidak, maka bernilai salah
+			}
+		}
+
+		document.write(xo('xoxoxo'));
+		document.write(xo('oxooxo'));
+		document.write(xo('oxo'));
+		document.write(xo('xxxooo'));
+		document.write(xo('xoxooxxo'));
+	</script>
+</head>
+<body>
+
+</body>
+</html>

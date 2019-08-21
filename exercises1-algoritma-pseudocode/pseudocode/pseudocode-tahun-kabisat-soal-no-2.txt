@@ -1,0 +1,10 @@
+PROGRAM TahunKabisat
+DEKLARASI
+int a
+ALGORITMA
+read(a)
+IF ((a % 4 == 0) && (a % 100 != 0)) || ((a % 4 == 0) && (a % 100 == 0) && (a % 400 == 0)) THEN
+write( a + " adalah tahun kabita")
+ELSE
+write ( a + " bukan tahun kabisat")
+END IF

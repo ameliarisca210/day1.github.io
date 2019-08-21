@@ -1,0 +1,10 @@
+PROGRAM loopingCuciBaju
+DEKLARASI 
+int p
+ALGORITMA
+read ( p = 0)
+WHILE ( P < 20 ) 
+write ("masukan pakaian kedalam mesin cuci")
+END WHILE
+write("Nyalakan Mesin Cuci")
+

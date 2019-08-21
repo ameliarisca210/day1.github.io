@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercises 12</title>
+	<script type="text/javascript">
+		function konversiMenit(inputMenit){
+			var menit = Math.floor(inputMenit/60) //bulatkan hasil bagi input menit dengan 60 
+			var detik  = inputMenit%60 //mengambil sisa bagi 60
+
+			if (detik < 10) {
+				detik = "0" + detik
+			}
+			document.write(menit + ":" + detik + "<br>");
+		}
+
+		konversiMenit(63) ;  
+		konversiMenit(124) ;  
+		konversiMenit(53) ;  
+		konversiMenit(88) ;  
+		konversiMenit(120) ;  
+	</script>
+</head>
+<body>
+
+</body>
+</html>
